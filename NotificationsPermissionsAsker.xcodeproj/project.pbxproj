@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAF2993D1CE3526100D377F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2993C1CE3526100D377F4 /* main.m */; };
+		EAF299401CE3526100D377F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2993F1CE3526100D377F4 /* AppDelegate.m */; };
+		EAF299431CE3526100D377F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF299421CE3526100D377F4 /* ViewController.m */; };
+		EAF299461CE3526100D377F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF299441CE3526100D377F4 /* Main.storyboard */; };
+		EAF299481CE3526100D377F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF299471CE3526100D377F4 /* Assets.xcassets */; };
+		EAF2994B1CE3526100D377F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF299491CE3526100D377F4 /* LaunchScreen.storyboard */; };
+		EAF299561CE3526100D377F4 /* NotificationsPermissionsAskerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF299551CE3526100D377F4 /* NotificationsPermissionsAskerTests.m */; };
+		EAF299611CE3526100D377F4 /* NotificationsPermissionsAskerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF299601CE3526100D377F4 /* NotificationsPermissionsAskerUITests.m */; };
+		EAF299701CE3538F00D377F4 /* NotificationsPermissionsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF2996F1CE3538F00D377F4 /* NotificationsPermissionsHandler.m */; };
+		EAF299AF1CEB1BEA00D377F4 /* LocationPermissionsHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF299AE1CEB1BEA00D377F4 /* LocationPermissionsHandler.m */; };
+		EAF299B11CEB1C4100D377F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF299B01CEB1C4100D377F4 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF299521CE3526100D377F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF299301CE3526100D377F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF299371CE3526100D377F4;
+			remoteInfo = NotificationsPermissionsAsker;
+		};
+		EAF2995D1CE3526100D377F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF299301CE3526100D377F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF299371CE3526100D377F4;
+			remoteInfo = NotificationsPermissionsAsker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAF299381CE3526100D377F4 /* NotificationsPermissionsAsker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationsPermissionsAsker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF2993C1CE3526100D377F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF2993E1CE3526100D377F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAF2993F1CE3526100D377F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAF299411CE3526100D377F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAF299421CE3526100D377F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAF299451CE3526100D377F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF299471CE3526100D377F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAF2994A1CE3526100D377F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAF2994C1CE3526100D377F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF299511CE3526100D377F4 /* NotificationsPermissionsAskerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsPermissionsAskerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF299551CE3526100D377F4 /* NotificationsPermissionsAskerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsPermissionsAskerTests.m; sourceTree = "<group>"; };
+		EAF299571CE3526100D377F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF2995C1CE3526100D377F4 /* NotificationsPermissionsAskerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationsPermissionsAskerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF299601CE3526100D377F4 /* NotificationsPermissionsAskerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsPermissionsAskerUITests.m; sourceTree = "<group>"; };
+		EAF299621CE3526100D377F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF2996E1CE3538F00D377F4 /* NotificationsPermissionsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsPermissionsHandler.h; sourceTree = "<group>"; };
+		EAF2996F1CE3538F00D377F4 /* NotificationsPermissionsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsPermissionsHandler.m; sourceTree = "<group>"; };
+		EAF299AD1CEB1BEA00D377F4 /* LocationPermissionsHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationPermissionsHandler.h; sourceTree = "<group>"; };
+		EAF299AE1CEB1BEA00D377F4 /* LocationPermissionsHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPermissionsHandler.m; sourceTree = "<group>"; };
+		EAF299B01CEB1C4100D377F4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF299351CE3526100D377F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF299B11CEB1C4100D377F4 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF2994E1CE3526100D377F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF299591CE3526100D377F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAF2992F1CE3526100D377F4 = {
+			isa = PBXGroup;
+			children = (
+				EAF2993A1CE3526100D377F4 /* NotificationsPermissionsAsker */,
+				EAF299541CE3526100D377F4 /* NotificationsPermissionsAskerTests */,
+				EAF2995F1CE3526100D377F4 /* NotificationsPermissionsAskerUITests */,
+				EAF299391CE3526100D377F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF299391CE3526100D377F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF299381CE3526100D377F4 /* NotificationsPermissionsAsker.app */,
+				EAF299511CE3526100D377F4 /* NotificationsPermissionsAskerTests.xctest */,
+				EAF2995C1CE3526100D377F4 /* NotificationsPermissionsAskerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF2993A1CE3526100D377F4 /* NotificationsPermissionsAsker */ = {
+			isa = PBXGroup;
+			children = (
+				EAF299AD1CEB1BEA00D377F4 /* LocationPermissionsHandler.h */,
+				EAF299AE1CEB1BEA00D377F4 /* LocationPermissionsHandler.m */,
+				EAF2996E1CE3538F00D377F4 /* NotificationsPermissionsHandler.h */,
+				EAF2996F1CE3538F00D377F4 /* NotificationsPermissionsHandler.m */,
+				EAF2993E1CE3526100D377F4 /* AppDelegate.h */,
+				EAF2993F1CE3526100D377F4 /* AppDelegate.m */,
+				EAF299411CE3526100D377F4 /* ViewController.h */,
+				EAF299421CE3526100D377F4 /* ViewController.m */,
+				EAF299441CE3526100D377F4 /* Main.storyboard */,
+				EAF299471CE3526100D377F4 /* Assets.xcassets */,
+				EAF299491CE3526100D377F4 /* LaunchScreen.storyboard */,
+				EAF2994C1CE3526100D377F4 /* Info.plist */,
+				EAF2993B1CE3526100D377F4 /* Supporting Files */,
+			);
+			path = NotificationsPermissionsAsker;
+			sourceTree = "<group>";
+		};
+		EAF2993B1CE3526100D377F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF299B01CEB1C4100D377F4 /* CoreLocation.framework */,
+				EAF2993C1CE3526100D377F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAF299541CE3526100D377F4 /* NotificationsPermissionsAskerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF299551CE3526100D377F4 /* NotificationsPermissionsAskerTests.m */,
+				EAF299571CE3526100D377F4 /* Info.plist */,
+			);
+			path = NotificationsPermissionsAskerTests;
+			sourceTree = "<group>";
+		};
+		EAF2995F1CE3526100D377F4 /* NotificationsPermissionsAskerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF299601CE3526100D377F4 /* NotificationsPermissionsAskerUITests.m */,
+				EAF299621CE3526100D377F4 /* Info.plist */,
+			);
+			path = NotificationsPermissionsAskerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF299371CE3526100D377F4 /* NotificationsPermissionsAsker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF299651CE3526100D377F4 /* Build configuration list for PBXNativeTarget "NotificationsPermissionsAsker" */;
+			buildPhases = (
+				EAF299341CE3526100D377F4 /* Sources */,
+				EAF299351CE3526100D377F4 /* Frameworks */,
+				EAF299361CE3526100D377F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationsPermissionsAsker;
+			productName = NotificationsPermissionsAsker;
+			productReference = EAF299381CE3526100D377F4 /* NotificationsPermissionsAsker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF299501CE3526100D377F4 /* NotificationsPermissionsAskerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF299681CE3526100D377F4 /* Build configuration list for PBXNativeTarget "NotificationsPermissionsAskerTests" */;
+			buildPhases = (
+				EAF2994D1CE3526100D377F4 /* Sources */,
+				EAF2994E1CE3526100D377F4 /* Frameworks */,
+				EAF2994F1CE3526100D377F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF299531CE3526100D377F4 /* PBXTargetDependency */,
+			);
+			name = NotificationsPermissionsAskerTests;
+			productName = NotificationsPermissionsAskerTests;
+			productReference = EAF299511CE3526100D377F4 /* NotificationsPermissionsAskerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAF2995B1CE3526100D377F4 /* NotificationsPermissionsAskerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF2996B1CE3526100D377F4 /* Build configuration list for PBXNativeTarget "NotificationsPermissionsAskerUITests" */;
+			buildPhases = (
+				EAF299581CE3526100D377F4 /* Sources */,
+				EAF299591CE3526100D377F4 /* Frameworks */,
+				EAF2995A1CE3526100D377F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF2995E1CE3526100D377F4 /* PBXTargetDependency */,
+			);
+			name = NotificationsPermissionsAskerUITests;
+			productName = NotificationsPermissionsAskerUITests;
+			productReference = EAF2995C1CE3526100D377F4 /* NotificationsPermissionsAskerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF299301CE3526100D377F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "John Kartupelis";
+				TargetAttributes = {
+					EAF299371CE3526100D377F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H9TDZM8KUK;
+					};
+					EAF299501CE3526100D377F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAF299371CE3526100D377F4;
+					};
+					EAF2995B1CE3526100D377F4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAF299371CE3526100D377F4;
+					};
+				};
+			};
+			buildConfigurationList = EAF299331CE3526100D377F4 /* Build configuration list for PBXProject "NotificationsPermissionsAsker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF2992F1CE3526100D377F4;
+			productRefGroup = EAF299391CE3526100D377F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF299371CE3526100D377F4 /* NotificationsPermissionsAsker */,
+				EAF299501CE3526100D377F4 /* NotificationsPermissionsAskerTests */,
+				EAF2995B1CE3526100D377F4 /* NotificationsPermissionsAskerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF299361CE3526100D377F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF2994B1CE3526100D377F4 /* LaunchScreen.storyboard in Resources */,
+				EAF299481CE3526100D377F4 /* Assets.xcassets in Resources */,
+				EAF299461CE3526100D377F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF2994F1CE3526100D377F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF2995A1CE3526100D377F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF299341CE3526100D377F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF299701CE3538F00D377F4 /* NotificationsPermissionsHandler.m in Sources */,
+				EAF299AF1CEB1BEA00D377F4 /* LocationPermissionsHandler.m in Sources */,
+				EAF299431CE3526100D377F4 /* ViewController.m in Sources */,
+				EAF299401CE3526100D377F4 /* AppDelegate.m in Sources */,
+				EAF2993D1CE3526100D377F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF2994D1CE3526100D377F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF299561CE3526100D377F4 /* NotificationsPermissionsAskerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF299581CE3526100D377F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF299611CE3526100D377F4 /* NotificationsPermissionsAskerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF299531CE3526100D377F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF299371CE3526100D377F4 /* NotificationsPermissionsAsker */;
+			targetProxy = EAF299521CE3526100D377F4 /* PBXContainerItemProxy */;
+		};
+		EAF2995E1CE3526100D377F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF299371CE3526100D377F4 /* NotificationsPermissionsAsker */;
+			targetProxy = EAF2995D1CE3526100D377F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAF299441CE3526100D377F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF299451CE3526100D377F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF299491CE3526100D377F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF2994A1CE3526100D377F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF299631CE3526100D377F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAF299641CE3526100D377F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF299661CE3526100D377F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NotificationsPermissionsAsker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = life.cocoon.cocoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAF299671CE3526100D377F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NotificationsPermissionsAsker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = life.cocoon.cocoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAF299691CE3526100D377F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotificationsPermissionsAskerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocoon.NotificationsPermissionsAskerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationsPermissionsAsker.app/NotificationsPermissionsAsker";
+			};
+			name = Debug;
+		};
+		EAF2996A1CE3526100D377F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotificationsPermissionsAskerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocoon.NotificationsPermissionsAskerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationsPermissionsAsker.app/NotificationsPermissionsAsker";
+			};
+			name = Release;
+		};
+		EAF2996C1CE3526100D377F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NotificationsPermissionsAskerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocoon.NotificationsPermissionsAskerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NotificationsPermissionsAsker;
+			};
+			name = Debug;
+		};
+		EAF2996D1CE3526100D377F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NotificationsPermissionsAskerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cocoon.NotificationsPermissionsAskerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NotificationsPermissionsAsker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF299331CE3526100D377F4 /* Build configuration list for PBXProject "NotificationsPermissionsAsker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF299631CE3526100D377F4 /* Debug */,
+				EAF299641CE3526100D377F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF299651CE3526100D377F4 /* Build configuration list for PBXNativeTarget "NotificationsPermissionsAsker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF299661CE3526100D377F4 /* Debug */,
+				EAF299671CE3526100D377F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAF299681CE3526100D377F4 /* Build configuration list for PBXNativeTarget "NotificationsPermissionsAskerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF299691CE3526100D377F4 /* Debug */,
+				EAF2996A1CE3526100D377F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAF2996B1CE3526100D377F4 /* Build configuration list for PBXNativeTarget "NotificationsPermissionsAskerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF2996C1CE3526100D377F4 /* Debug */,
+				EAF2996D1CE3526100D377F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF299301CE3526100D377F4 /* Project object */;
+}

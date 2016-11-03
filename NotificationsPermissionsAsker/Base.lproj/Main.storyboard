@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFk-4s-bcP">
+                                <rect key="frame" x="185" y="100" width="231" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cmA-mF-KZ9"/>
+                                    <constraint firstAttribute="width" constant="231" id="rAO-Uv-eeD"/>
+                                </constraints>
+                                <state key="normal" title="Request notifications permissions"/>
+                                <connections>
+                                    <action selector="requestNotificationPermissions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MKM-y0-WzU"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Ja6-Tk-KCz">
+                                <rect key="frame" x="290" y="138" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="QLz-Ya-dFp"/>
+                                    <constraint firstAttribute="width" constant="20" id="zeA-s0-C50"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does not have permissions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXi-cF-wS8">
+                                <rect key="frame" x="20" y="166" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="eJp-qH-4nV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPb-Xz-GD6">
+                                <rect key="frame" x="200" y="220" width="201" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="VcS-7p-8Je"/>
+                                    <constraint firstAttribute="width" constant="231" id="sIq-fF-5eX"/>
+                                </constraints>
+                                <state key="normal" title="Request location permissions"/>
+                                <connections>
+                                    <action selector="requestLocationPermissions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zmP-4w-YxZ"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Wd1-jr-xaJ">
+                                <rect key="frame" x="290" y="258" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="BUG-jI-waZ"/>
+                                    <constraint firstAttribute="height" constant="20" id="Rrf-bb-rhm"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does not have permissions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giz-2m-oUC">
+                                <rect key="frame" x="20" y="286" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="SL0-nM-9d9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pPb-Xz-GD6" firstAttribute="top" secondItem="TXi-cF-wS8" secondAttribute="bottom" constant="33" id="434-08-fBG"/>
+                            <constraint firstItem="uFk-4s-bcP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="6AO-jl-V8t"/>
+                            <constraint firstItem="Ja6-Tk-KCz" firstAttribute="top" secondItem="uFk-4s-bcP" secondAttribute="bottom" constant="8" id="8ZV-lz-Omg"/>
+                            <constraint firstItem="TXi-cF-wS8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8gd-sc-e72"/>
+                            <constraint firstItem="giz-2m-oUC" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="E9z-wW-NuH"/>
+                            <constraint firstItem="giz-2m-oUC" firstAttribute="top" secondItem="Wd1-jr-xaJ" secondAttribute="bottom" constant="8" id="L3T-xM-jHG"/>
+                            <constraint firstItem="Wd1-jr-xaJ" firstAttribute="top" secondItem="pPb-Xz-GD6" secondAttribute="bottom" constant="8" id="MrJ-wf-lZz"/>
+                            <constraint firstItem="pPb-Xz-GD6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TiY-V1-MVb"/>
+                            <constraint firstItem="Ja6-Tk-KCz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V2I-95-Mu5"/>
+                            <constraint firstItem="giz-2m-oUC" firstAttribute="top" secondItem="Wd1-jr-xaJ" secondAttribute="bottom" constant="8" id="Vap-yc-AFq"/>
+                            <constraint firstItem="TXi-cF-wS8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YFX-hp-Pa6"/>
+                            <constraint firstItem="Wd1-jr-xaJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dq5-MV-A1Y"/>
+                            <constraint firstItem="TXi-cF-wS8" firstAttribute="top" secondItem="Ja6-Tk-KCz" secondAttribute="bottom" constant="8" id="gqW-fd-Uzd"/>
+                            <constraint firstItem="giz-2m-oUC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="itP-fj-N78"/>
+                            <constraint firstItem="uFk-4s-bcP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nY6-6V-kJm"/>
+                            <constraint firstItem="TXi-cF-wS8" firstAttribute="top" secondItem="Ja6-Tk-KCz" secondAttribute="bottom" constant="8" id="q6W-fz-bPR"/>
+                            <constraint firstItem="giz-2m-oUC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yac-pe-EeF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLoc" destination="pPb-Xz-GD6" id="DO3-yv-mXc"/>
+                        <outlet property="buttonNoti" destination="uFk-4s-bcP" id="EOc-q8-Kdt"/>
+                        <outlet property="labelLoc" destination="giz-2m-oUC" id="IB7-rE-enj"/>
+                        <outlet property="labelNoti" destination="TXi-cF-wS8" id="KgE-gQ-j6k"/>
+                        <outlet property="spinnerLoc" destination="Wd1-jr-xaJ" id="d9V-6Q-J6f"/>
+                        <outlet property="spinnerNoti" destination="Ja6-Tk-KCz" id="YD8-bT-QwG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="549"/>
+        </scene>
+    </scenes>
+</document>
